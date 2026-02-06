@@ -1,2 +1,2 @@
 # math_timeline
-Mathematics timeline
+[This is a tool for visualizing the history of mathematics](https://tghyde.github.io/math_timeline/). Select mathematicians and events from the list on the left and they will be added to the timeline. Clicking on objects on the timeline will display more information, including an image, at the bottom. The search bar allows for filtering by names and keywords. I created this tool to help give historical context in my math classes; the current selection of mathematicians reflects the specific occasions in which I have used it.
