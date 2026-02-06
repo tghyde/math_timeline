@@ -1,0 +1,333 @@
+{
+  "mathematicians": [
+    {
+      "id": 1,
+      "content": "Isaac Newton",
+      "start": "1643-01-04",
+      "end": "1727-03-31",
+      "tags": ["calculus", "physics", "england"],
+      "image": "figs/newton.jpg"
+    },
+    {
+      "id": 2,
+      "content": "Gottfried Wilhelm Leibniz",
+      "start": "1646-07-01",
+      "end": "1716-11-14",
+      "tags": ["calculus", "philosophy", "germany"],
+      "image": "figs/leibniz.jpg"
+    },
+    {
+        "id": 3,
+        "content": "Bernhard Riemann",
+        "start": "1826-09-17",
+        "end": "1866-07-20",
+        "tags": ["germany", "geometry", "primes"],
+        "image": "figs/riemann.jpg"
+    },
+    {
+        "id": 4,
+        "content": "Leonhard Euler",
+        "start": "1707-04-15",
+        "end": "1783-09-18",
+        "tags": ["analysis", "number theory", "graph theory", "switzerland", "calculus"],
+        "image": "figs/euler.jpg"
+    },
+    {
+        "id": 5,
+        "content": "Joseph-Louis Lagrange",
+        "start": "1736-01-25",
+        "end": "1813-04-10",
+        "tags": ["analysis", "number theory", "mechanics", "italy", "calculus"],
+        "image": "figs/lagrange.jpg"
+    },
+    {
+        "id": 6,
+        "content": "Pierre-Simon Laplace",
+        "start": "1749-03-23",
+        "end": "1827-03-05",
+        "tags": ["probability", "statistics", "mechanics", "france"],
+        "image": "figs/laplace.jpg"
+    },
+    {
+        "id": 7,
+        "content": "Pierre de Fermat",
+        "start": "1607-08-17",
+        "end": "1665-01-12",
+        "tags": ["number theory", "probability", "optics", "france"],
+        "image": "figs/fermat.jpg"
+    },
+    {
+        "id": 8,
+        "content": "René Descartes",
+        "start": "1596-03-31",
+        "end": "1650-02-11",
+        "tags": ["geometry", "philosophy", "france", "cartesian coordinates"],
+        "image": "figs/descartes.jpg"
+    },
+    {
+        "id": 9,
+        "content": "Carl Friedrich Gauss",
+        "start": "1777-04-30",
+        "end": "1855-02-23",
+        "tags": ["number_theory", "algebra", "statistics", "geometry", "germany"],
+        "image": "figs/gauss.jpg"
+    },
+    {
+        "id": 10,
+        "content": "Felix Klein",
+        "start": "1849-04-25",
+        "end": "1925-06-22",
+        "tags": ["geometry", "group theory", "function theory", "germany"],
+        "image": "figs/klein.jpg"
+    },
+    {
+        "id": 11,
+        "content": "Henri Poincaré",
+        "start": "1854-04-29",
+        "end": "1912-07-17",
+        "tags": ["topology", "dynamics", "celestial mechanics", "france"],
+        "image": "figs/poincare.jpg"
+    },
+    {
+        "id": 12,
+        "content": "Henri Lebesgue",
+        "start": "1875-06-28",
+        "end": "1941-07-26",
+        "tags": ["analysis", "integration theory", "measure_theory", "france"],
+        "image": "figs/lebesgue.jpg"
+    },
+    {
+        "id": 13,
+        "content": "David Hilbert",
+        "start": "1862-01-23",
+        "end": "1943-02-14",
+        "tags": ["algebra", "functional_analysis", "geometry", "logic", "germany"],
+        "image": "figs/hilbert.jpg"
+    },
+    {
+        "id": 14,
+        "content": "Georg Cantor",
+        "start": "1845-03-03",
+        "end": "1918-01-06",
+        "tags": ["set_theory", "infinity", "logic", "germany"],
+        "image": "figs/cantor.jpg"
+    },
+    {
+        "id": 15,
+        "content": "L. E. J. Brouwer",
+        "start": "1881-02-27",
+        "end": "1966-12-02",
+        "tags": ["topology", "fixed point theorem"],
+        "image": "figs/brouwer.jpg"
+    },
+    {
+        "id": 16,
+        "content": "Jean Dieudonné",
+        "start": "1906-07-01",
+        "end": "1992-11-29", 
+        "tags": ["algebraic geometry"],
+        "image": "figs/dieudonne.jpg" 
+    },
+    {
+        "id": 17,
+        "content": "Heinz Hopf",
+        "start": "1894-11-19",
+        "end": "1971-06-03", 
+        "tags": ["topology"],
+        "image": "figs/hopf.jpg"
+    },
+    {
+        "id": 18,
+        "content": "William Thurston",
+        "start": "1946-10-30",
+        "end": "2012-08-21", 
+        "tags": ["geometry", "topology", "dynamics"],
+        "image": "figs/thurston.jpg"
+    },
+    {
+        "id": 19,
+        "content": "André Weil",
+        "start": "1906-05-06",
+        "end": "1998-08-06",
+        "tags": ["algebraic geometry", "number theory", "bourbaki", "france"],
+        "image": "figs/weil.jpg"
+    },
+    {
+        "id": 20,
+        "content": "Alexander Grothendieck",
+        "start": "1928-03-28",
+        "end": "2014-11-13",
+        "tags": ["algebraic geometry", "schemes", "category theory", "germany", "france"],
+        "image": "figs/grothendieck.jpg"
+    },
+    {
+        "id": 21,
+        "content": "Karl von Staudt",
+        "start": "1798-01-24",
+        "end": "1867-06-01",
+        "tags": ["projective geometry", "non euclidean geometry", "germany"],
+        "image": "figs/vonstaudt.jpg"
+    },
+    {
+        "id": 22,
+        "content": "Adrien-Marie Legendre",
+        "start": "1752-09-18",
+        "end": "1833-01-10",
+        "tags": ["elliptic functions", "number theory", "celestial mechanics", "france"],
+        "image": "figs/legendre.jpg"
+    },
+    {
+        "id": 23,
+        "content": "John Wallis",
+        "start": "1616-11-23",
+        "end": "1703-10-28",
+        "tags": ["calculus", "infinity", "algebra", "england"],
+        "image": "figs/wallis.jpg"
+    },
+    {
+        "id": 24,
+        "content": "Solomon Lefschetz",
+        "start": "1884-09-03",
+        "end": "1972-10-05",
+        "tags": ["algebraic topology", "fixed point theory", "russia", "united states"],
+        "image": "figs/lefschetz.jpg"
+    },
+    {
+        "id": 25,
+        "content": "Oscar Zariski",
+        "start": "1899-04-24",
+        "end": "1986-07-04",
+        "tags": ["algebraic geometry", "commutative algebra", "russia", "united states"],
+        "image": "figs/zariski.jpg"
+    },
+    {
+        "id": 26,
+        "content": "Pierre Ossian Bonnet",
+        "start": "1819-12-22",
+        "end": "1892-06-22",
+        "tags": ["differential_geometry", "topology", "france"],
+        "image": "figs/bonnet.jpg"
+    },
+    {
+        "id": 27,
+        "content": "Wilhelm Blaschke",
+        "start": "1885-09-13",
+        "end": "1962-03-17",
+        "tags": ["differential_geometry", "integral_geometry", "austria", "germany"],
+        "image": "figs/blaschke.jpg"
+    },
+    {
+        "id": 28,
+        "content": "Walther von Dyck",
+        "start": "1856-12-06",
+        "end": "1934-11-05",
+        "tags": ["group_theory", "topology", "germany"],
+        "image": "figs/dyck.jpg"
+    },
+    {
+        "id": 29,
+        "content": "Johann Benedict Listing",
+        "start": "1808-07-25",
+        "end": "1882-12-24",
+        "tags": ["topology", "geodesy", "germany"],
+        "image": "figs/listing.jpg"
+    },
+    {
+        "id": 30,
+        "content": "Enrico Betti",
+        "start": "1823-10-21",
+        "end": "1892-08-11",
+        "tags": ["topology", "algebra", "analysis", "italy"],
+        "image": "figs/betti.jpg"
+    },
+    {
+        "id": 31,
+        "content": "G. H. Hardy",
+        "start": "1877-02-07",
+        "end": "1947-12-01",
+        "tags": ["number_theory", "analysis", "england"],
+        "image": "figs/hardy.jpg"
+    },
+    {
+        "id": 32,
+        "content": "John Edensor Littlewood",
+        "start": "1885-06-09",
+        "end": "1977-09-06",
+        "tags": ["analysis", "number_theory", "england"],
+        "image": "figs/littlewood.jpg"
+    },
+    {
+        "id": 33,
+        "content": "Srinivasa Ramanujan",
+        "start": "1887-12-22",
+        "end": "1920-04-26",
+        "tags": ["number_theory", "infinite_series", "continued_fractions", "india"],
+        "image": "figs/ramanujan.jpg"
+    },
+    {
+        "id": 34,
+        "content": "August Ferdinand Möbius",
+        "start": "1790-11-17",
+        "end": "1868-09-26",
+        "tags": ["topology", "geometry", "number_theory", "germany"],
+        "image": "figs/mobius.jpg"
+    },
+    {
+        "id": 35,
+        "content": "Emmy Noether",
+        "start": "1882-03-23",
+        "end": "1935-04-14",
+        "tags": ["abstract_algebra", "ring_theory", "theoretical_physics", "germany"],
+        "image": "figs/emmy_noether.jpg"
+    },
+    {
+        "id": 36,
+        "content": "Max Noether",
+        "start": "1844-09-24",
+        "end": "1921-12-13",
+        "tags": ["algebraic_geometry", "algebraic_functions", "germany"],
+        "image": "figs/max_noether.jpg"
+    },
+    {
+        "id": 37,
+        "content": "Max Dehn",
+        "start": "1878-11-13",
+        "end": "1952-06-27",
+        "tags": ["topology", "group_theory", "geometry", "germany"],
+        "image": "figs/dehn.jpg"
+    },
+    {
+        "id": 38,
+        "content": "Camille Jordan",
+        "start": "1838-01-05",
+        "end": "1922-01-22",
+        "tags": ["group_theory", "analysis", "topology", "france"],
+        "image": "figs/jordan.jpg"
+    },
+    {
+        "id": 39,
+        "content": "Poul Heegaard",
+        "start": "1871-11-02",
+        "end": "1948-02-07",
+        "tags": ["topology", "knot_theory", "denmark"],
+        "image": "figs/heegaard.jpg"
+    },
+    {
+        "id": 40,
+        "content": "Tibor Radó",
+        "start": "1895-06-02",
+        "end": "1965-12-29",
+        "tags": ["computability_theory", "turing_machines", "busy_beaver", "hungary", "united_states"],
+        "image": "figs/rado.jpg"
+    }
+  ],
+  "events": [
+    {
+        "id": 101,
+        "content": "Publication of Principia Mathematica",
+        "start": "1687-07-05",
+        "type": "point",
+        "tags": ["calculus", "physics"]
+    }
+  ]
+}

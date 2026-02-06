@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-T">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline of Mathematics</title>
+
+    <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app-container">
+        <div id="controls">
+            <h1>Mathematics Timeline 📐</h1>
+            <p>Search for mathematicians, events, or tags to add them to the timeline.</p>
+            <div class="search-wrapper">
+                <input type="text" id="search-bar" placeholder="e.g., 'Newton', 'calculus', 'germany'">
+            </div>
+            <div id="search-results">
+                </div>
+        </div>
+
+        <div id="main-content">
+            <div id="timeline-container"></div>
+
+            <div id="info-panel">
+                <p class="placeholder">Click an item on the timeline to see details here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
