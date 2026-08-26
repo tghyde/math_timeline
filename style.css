@@ -72,6 +72,161 @@ body {
     margin-top: 15px;
     overflow-y: auto;
     flex-grow: 1;
+    min-height: 120px;
+}
+
+/* --- Saved Timelines & Data Actions --- */
+#timelines-section,
+#data-actions {
+    border-top: 1px solid var(--border-color);
+    padding-top: 12px;
+    margin-top: 12px;
+    flex-shrink: 0;
+}
+
+#timelines-section h2 {
+    font-size: 1rem;
+    margin: 0 0 8px;
+    color: var(--primary-accent);
+}
+
+.save-timeline-row {
+    display: flex;
+    gap: 8px;
+}
+
+#timeline-name {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 6px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+}
+
+button {
+    padding: 6px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+    border-color: var(--primary-accent);
+    color: var(--primary-accent);
+}
+
+#saved-timelines-list {
+    margin-top: 8px;
+    max-height: 140px;
+    overflow-y: auto;
+}
+
+.saved-timeline-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 0;
+}
+
+.saved-timeline-name {
+    flex-grow: 1;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.saved-timeline-name:hover {
+    color: var(--primary-accent);
+}
+
+.saved-timeline-row button {
+    padding: 3px 8px;
+    font-size: 0.8rem;
+}
+
+#data-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hint {
+    font-size: 0.75rem;
+    color: #888;
+    margin: 4px 0 0;
+    width: 100%;
+}
+
+/* --- Add Person/Event Dialog --- */
+#add-dialog {
+    background-color: var(--panel-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 24px;
+    width: min(420px, 90vw);
+}
+
+#add-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#add-form h2 {
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+    color: var(--primary-accent);
+}
+
+#add-form label {
+    display: block;
+    margin: 10px 0 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.label-note {
+    font-weight: normal;
+    color: #888;
+}
+
+#add-form input,
+#add-form select,
+#add-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 9px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.form-error {
+    color: #ff4081;
+    font-size: 0.85rem;
+    margin: 10px 0 0;
+}
+
+.dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+#add-submit-btn {
+    border-color: var(--primary-accent);
+    color: var(--primary-accent);
 }
 
 .result-item {
@@ -147,14 +302,16 @@ body {
 .vis-item {
     border-color: var(--primary-accent);
     background-color: rgba(0, 170, 255, 0.2);
-    font-size: 0.85rem;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    border-radius: 3px;
 }
 
 
 .vis-item .vis-item-content {
     text-align: center !important;
     width: 100%;
-    padding: 5px 0;
+    padding: 1px 4px;
 }
 
 .vis-item.vis-selected {

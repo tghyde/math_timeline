@@ -5,7 +5,11 @@
       "content": "Isaac Newton",
       "start": "1643-01-04",
       "end": "1727-03-31",
-      "tags": ["calculus", "physics", "england"],
+      "tags": [
+        "calculus",
+        "physics",
+        "england"
+      ],
       "image": "figs/newton.jpg"
     },
     {
@@ -13,321 +17,688 @@
       "content": "Gottfried Wilhelm Leibniz",
       "start": "1646-07-01",
       "end": "1716-11-14",
-      "tags": ["calculus", "philosophy", "germany"],
+      "tags": [
+        "calculus",
+        "philosophy",
+        "germany"
+      ],
       "image": "figs/leibniz.jpg"
     },
     {
-        "id": 3,
-        "content": "Bernhard Riemann",
-        "start": "1826-09-17",
-        "end": "1866-07-20",
-        "tags": ["germany", "geometry", "primes"],
-        "image": "figs/riemann.jpg"
+      "id": 3,
+      "content": "Bernhard Riemann",
+      "start": "1826-09-17",
+      "end": "1866-07-20",
+      "tags": [
+        "germany",
+        "geometry",
+        "primes"
+      ],
+      "image": "figs/riemann.jpg"
     },
     {
-        "id": 4,
-        "content": "Leonhard Euler",
-        "start": "1707-04-15",
-        "end": "1783-09-18",
-        "tags": ["analysis", "number theory", "graph theory", "switzerland", "calculus"],
-        "image": "figs/euler.jpg"
+      "id": 4,
+      "content": "Leonhard Euler",
+      "start": "1707-04-15",
+      "end": "1783-09-18",
+      "tags": [
+        "analysis",
+        "number theory",
+        "graph theory",
+        "switzerland",
+        "calculus",
+        "group theory"
+      ],
+      "image": "figs/euler.jpg"
     },
     {
-        "id": 5,
-        "content": "Joseph-Louis Lagrange",
-        "start": "1736-01-25",
-        "end": "1813-04-10",
-        "tags": ["analysis", "number theory", "mechanics", "italy", "calculus"],
-        "image": "figs/lagrange.jpg"
+      "id": 5,
+      "content": "Joseph-Louis Lagrange",
+      "start": "1736-01-25",
+      "end": "1813-04-10",
+      "tags": [
+        "analysis",
+        "number theory",
+        "mechanics",
+        "italy",
+        "calculus",
+        "group theory"
+      ],
+      "image": "figs/lagrange.jpg"
     },
     {
-        "id": 6,
-        "content": "Pierre-Simon Laplace",
-        "start": "1749-03-23",
-        "end": "1827-03-05",
-        "tags": ["probability", "statistics", "mechanics", "france"],
-        "image": "figs/laplace.jpg"
+      "id": 6,
+      "content": "Pierre-Simon Laplace",
+      "start": "1749-03-23",
+      "end": "1827-03-05",
+      "tags": [
+        "probability",
+        "statistics",
+        "mechanics",
+        "france"
+      ],
+      "image": "figs/laplace.jpg"
     },
     {
-        "id": 7,
-        "content": "Pierre de Fermat",
-        "start": "1607-08-17",
-        "end": "1665-01-12",
-        "tags": ["number theory", "probability", "optics", "france"],
-        "image": "figs/fermat.jpg"
+      "id": 7,
+      "content": "Pierre de Fermat",
+      "start": "1607-08-17",
+      "end": "1665-01-12",
+      "tags": [
+        "number theory",
+        "probability",
+        "optics",
+        "france"
+      ],
+      "image": "figs/fermat.jpg"
     },
     {
-        "id": 8,
-        "content": "René Descartes",
-        "start": "1596-03-31",
-        "end": "1650-02-11",
-        "tags": ["geometry", "philosophy", "france", "cartesian coordinates"],
-        "image": "figs/descartes.jpg"
+      "id": 8,
+      "content": "René Descartes",
+      "start": "1596-03-31",
+      "end": "1650-02-11",
+      "tags": [
+        "geometry",
+        "philosophy",
+        "france",
+        "cartesian coordinates"
+      ],
+      "image": "figs/descartes.jpg"
     },
     {
-        "id": 9,
-        "content": "Carl Friedrich Gauss",
-        "start": "1777-04-30",
-        "end": "1855-02-23",
-        "tags": ["number_theory", "algebra", "statistics", "geometry", "germany"],
-        "image": "figs/gauss.jpg"
+      "id": 9,
+      "content": "Carl Friedrich Gauss",
+      "start": "1777-04-30",
+      "end": "1855-02-23",
+      "tags": [
+        "number theory",
+        "algebra",
+        "statistics",
+        "geometry",
+        "germany",
+        "group theory"
+      ],
+      "image": "figs/gauss.jpg"
     },
     {
-        "id": 10,
-        "content": "Felix Klein",
-        "start": "1849-04-25",
-        "end": "1925-06-22",
-        "tags": ["geometry", "group theory", "function theory", "germany"],
-        "image": "figs/klein.jpg"
+      "id": 10,
+      "content": "Felix Klein",
+      "start": "1849-04-25",
+      "end": "1925-06-22",
+      "tags": [
+        "geometry",
+        "group theory",
+        "function theory",
+        "germany"
+      ],
+      "image": "figs/klein.jpg"
     },
     {
-        "id": 11,
-        "content": "Henri Poincaré",
-        "start": "1854-04-29",
-        "end": "1912-07-17",
-        "tags": ["topology", "dynamics", "celestial mechanics", "france"],
-        "image": "figs/poincare.jpg"
+      "id": 11,
+      "content": "Henri Poincaré",
+      "start": "1854-04-29",
+      "end": "1912-07-17",
+      "tags": [
+        "topology",
+        "dynamics",
+        "celestial mechanics",
+        "france"
+      ],
+      "image": "figs/poincare.jpg"
     },
     {
-        "id": 12,
-        "content": "Henri Lebesgue",
-        "start": "1875-06-28",
-        "end": "1941-07-26",
-        "tags": ["analysis", "integration theory", "measure_theory", "france"],
-        "image": "figs/lebesgue.jpg"
+      "id": 12,
+      "content": "Henri Lebesgue",
+      "start": "1875-06-28",
+      "end": "1941-07-26",
+      "tags": [
+        "analysis",
+        "integration theory",
+        "measure theory",
+        "france"
+      ],
+      "image": "figs/lebesgue.jpg"
     },
     {
-        "id": 13,
-        "content": "David Hilbert",
-        "start": "1862-01-23",
-        "end": "1943-02-14",
-        "tags": ["algebra", "functional_analysis", "geometry", "logic", "germany"],
-        "image": "figs/hilbert.jpg"
+      "id": 13,
+      "content": "David Hilbert",
+      "start": "1862-01-23",
+      "end": "1943-02-14",
+      "tags": [
+        "algebra",
+        "functional analysis",
+        "geometry",
+        "logic",
+        "germany"
+      ],
+      "image": "figs/hilbert.jpg"
     },
     {
-        "id": 14,
-        "content": "Georg Cantor",
-        "start": "1845-03-03",
-        "end": "1918-01-06",
-        "tags": ["set_theory", "infinity", "logic", "germany"],
-        "image": "figs/cantor.jpg"
+      "id": 14,
+      "content": "Georg Cantor",
+      "start": "1845-03-03",
+      "end": "1918-01-06",
+      "tags": [
+        "set theory",
+        "infinity",
+        "logic",
+        "germany"
+      ],
+      "image": "figs/cantor.jpg"
     },
     {
-        "id": 15,
-        "content": "L. E. J. Brouwer",
-        "start": "1881-02-27",
-        "end": "1966-12-02",
-        "tags": ["topology", "fixed point theorem"],
-        "image": "figs/brouwer.jpg"
+      "id": 15,
+      "content": "L. E. J. Brouwer",
+      "start": "1881-02-27",
+      "end": "1966-12-02",
+      "tags": [
+        "topology",
+        "fixed point theorem"
+      ],
+      "image": "figs/brouwer.jpg"
     },
     {
-        "id": 16,
-        "content": "Jean Dieudonné",
-        "start": "1906-07-01",
-        "end": "1992-11-29", 
-        "tags": ["algebraic geometry"],
-        "image": "figs/dieudonne.jpg" 
+      "id": 16,
+      "content": "Jean Dieudonné",
+      "start": "1906-07-01",
+      "end": "1992-11-29",
+      "tags": [
+        "algebraic geometry"
+      ],
+      "image": "figs/dieudonne.jpg"
     },
     {
-        "id": 17,
-        "content": "Heinz Hopf",
-        "start": "1894-11-19",
-        "end": "1971-06-03", 
-        "tags": ["topology"],
-        "image": "figs/hopf.jpg"
+      "id": 17,
+      "content": "Heinz Hopf",
+      "start": "1894-11-19",
+      "end": "1971-06-03",
+      "tags": [
+        "topology"
+      ],
+      "image": "figs/hopf.jpg"
     },
     {
-        "id": 18,
-        "content": "William Thurston",
-        "start": "1946-10-30",
-        "end": "2012-08-21", 
-        "tags": ["geometry", "topology", "dynamics"],
-        "image": "figs/thurston.jpg"
+      "id": 18,
+      "content": "William Thurston",
+      "start": "1946-10-30",
+      "end": "2012-08-21",
+      "tags": [
+        "geometry",
+        "topology",
+        "dynamics"
+      ],
+      "image": "figs/thurston.jpg"
     },
     {
-        "id": 19,
-        "content": "André Weil",
-        "start": "1906-05-06",
-        "end": "1998-08-06",
-        "tags": ["algebraic geometry", "number theory", "bourbaki", "france"],
-        "image": "figs/weil.jpg"
+      "id": 19,
+      "content": "André Weil",
+      "start": "1906-05-06",
+      "end": "1998-08-06",
+      "tags": [
+        "algebraic geometry",
+        "number theory",
+        "bourbaki",
+        "france"
+      ],
+      "image": "figs/weil.jpg"
     },
     {
-        "id": 20,
-        "content": "Alexander Grothendieck",
-        "start": "1928-03-28",
-        "end": "2014-11-13",
-        "tags": ["algebraic geometry", "schemes", "category theory", "germany", "france"],
-        "image": "figs/grothendieck.jpg"
+      "id": 20,
+      "content": "Alexander Grothendieck",
+      "start": "1928-03-28",
+      "end": "2014-11-13",
+      "tags": [
+        "algebraic geometry",
+        "schemes",
+        "category theory",
+        "germany",
+        "france"
+      ],
+      "image": "figs/grothendieck.jpg"
     },
     {
-        "id": 21,
-        "content": "Karl von Staudt",
-        "start": "1798-01-24",
-        "end": "1867-06-01",
-        "tags": ["projective geometry", "non euclidean geometry", "germany"],
-        "image": "figs/vonstaudt.jpg"
+      "id": 21,
+      "content": "Karl von Staudt",
+      "start": "1798-01-24",
+      "end": "1867-06-01",
+      "tags": [
+        "projective geometry",
+        "non euclidean geometry",
+        "germany"
+      ],
+      "image": "figs/vonstaudt.jpg"
     },
     {
-        "id": 22,
-        "content": "Adrien-Marie Legendre",
-        "start": "1752-09-18",
-        "end": "1833-01-10",
-        "tags": ["elliptic functions", "number theory", "celestial mechanics", "france"],
-        "image": "figs/legendre.jpg"
+      "id": 22,
+      "content": "Adrien-Marie Legendre",
+      "start": "1752-09-18",
+      "end": "1833-01-10",
+      "tags": [
+        "elliptic functions",
+        "number theory",
+        "celestial mechanics",
+        "france"
+      ],
+      "image": "figs/legendre.jpg"
     },
     {
-        "id": 23,
-        "content": "John Wallis",
-        "start": "1616-11-23",
-        "end": "1703-10-28",
-        "tags": ["calculus", "infinity", "algebra", "england"],
-        "image": "figs/wallis.jpg"
+      "id": 23,
+      "content": "John Wallis",
+      "start": "1616-11-23",
+      "end": "1703-10-28",
+      "tags": [
+        "calculus",
+        "infinity",
+        "algebra",
+        "england"
+      ],
+      "image": "figs/wallis.jpg"
     },
     {
-        "id": 24,
-        "content": "Solomon Lefschetz",
-        "start": "1884-09-03",
-        "end": "1972-10-05",
-        "tags": ["algebraic topology", "fixed point theory", "russia", "united states"],
-        "image": "figs/lefschetz.jpg"
+      "id": 24,
+      "content": "Solomon Lefschetz",
+      "start": "1884-09-03",
+      "end": "1972-10-05",
+      "tags": [
+        "algebraic topology",
+        "fixed point theory",
+        "russia",
+        "united states"
+      ],
+      "image": "figs/lefschetz.jpg"
     },
     {
-        "id": 25,
-        "content": "Oscar Zariski",
-        "start": "1899-04-24",
-        "end": "1986-07-04",
-        "tags": ["algebraic geometry", "commutative algebra", "russia", "united states"],
-        "image": "figs/zariski.jpg"
+      "id": 25,
+      "content": "Oscar Zariski",
+      "start": "1899-04-24",
+      "end": "1986-07-04",
+      "tags": [
+        "algebraic geometry",
+        "commutative algebra",
+        "russia",
+        "united states"
+      ],
+      "image": "figs/zariski.jpg"
     },
     {
-        "id": 26,
-        "content": "Pierre Ossian Bonnet",
-        "start": "1819-12-22",
-        "end": "1892-06-22",
-        "tags": ["differential_geometry", "topology", "france"],
-        "image": "figs/bonnet.jpg"
+      "id": 26,
+      "content": "Pierre Ossian Bonnet",
+      "start": "1819-12-22",
+      "end": "1892-06-22",
+      "tags": [
+        "differential geometry",
+        "topology",
+        "france"
+      ],
+      "image": "figs/bonnet.jpg"
     },
     {
-        "id": 27,
-        "content": "Wilhelm Blaschke",
-        "start": "1885-09-13",
-        "end": "1962-03-17",
-        "tags": ["differential_geometry", "integral_geometry", "austria", "germany"],
-        "image": "figs/blaschke.jpg"
+      "id": 27,
+      "content": "Wilhelm Blaschke",
+      "start": "1885-09-13",
+      "end": "1962-03-17",
+      "tags": [
+        "differential geometry",
+        "integral geometry",
+        "austria",
+        "germany"
+      ],
+      "image": "figs/blaschke.jpg"
     },
     {
-        "id": 28,
-        "content": "Walther von Dyck",
-        "start": "1856-12-06",
-        "end": "1934-11-05",
-        "tags": ["group_theory", "topology", "germany"],
-        "image": "figs/dyck.jpg"
+      "id": 28,
+      "content": "Walther von Dyck",
+      "start": "1856-12-06",
+      "end": "1934-11-05",
+      "tags": [
+        "group theory",
+        "topology",
+        "germany"
+      ],
+      "image": "figs/dyck.jpg"
     },
     {
-        "id": 29,
-        "content": "Johann Benedict Listing",
-        "start": "1808-07-25",
-        "end": "1882-12-24",
-        "tags": ["topology", "geodesy", "germany"],
-        "image": "figs/listing.jpg"
+      "id": 29,
+      "content": "Johann Benedict Listing",
+      "start": "1808-07-25",
+      "end": "1882-12-24",
+      "tags": [
+        "topology",
+        "geodesy",
+        "germany"
+      ],
+      "image": "figs/listing.jpg"
     },
     {
-        "id": 30,
-        "content": "Enrico Betti",
-        "start": "1823-10-21",
-        "end": "1892-08-11",
-        "tags": ["topology", "algebra", "analysis", "italy"],
-        "image": "figs/betti.jpg"
+      "id": 30,
+      "content": "Enrico Betti",
+      "start": "1823-10-21",
+      "end": "1892-08-11",
+      "tags": [
+        "topology",
+        "algebra",
+        "analysis",
+        "italy"
+      ],
+      "image": "figs/betti.jpg"
     },
     {
-        "id": 31,
-        "content": "G. H. Hardy",
-        "start": "1877-02-07",
-        "end": "1947-12-01",
-        "tags": ["number_theory", "analysis", "england"],
-        "image": "figs/hardy.jpg"
+      "id": 31,
+      "content": "G. H. Hardy",
+      "start": "1877-02-07",
+      "end": "1947-12-01",
+      "tags": [
+        "number theory",
+        "analysis",
+        "england"
+      ],
+      "image": "figs/hardy.jpg"
     },
     {
-        "id": 32,
-        "content": "John Edensor Littlewood",
-        "start": "1885-06-09",
-        "end": "1977-09-06",
-        "tags": ["analysis", "number_theory", "england"],
-        "image": "figs/littlewood.jpg"
+      "id": 32,
+      "content": "John Edensor Littlewood",
+      "start": "1885-06-09",
+      "end": "1977-09-06",
+      "tags": [
+        "analysis",
+        "number theory",
+        "england"
+      ],
+      "image": "figs/littlewood.jpg"
     },
     {
-        "id": 33,
-        "content": "Srinivasa Ramanujan",
-        "start": "1887-12-22",
-        "end": "1920-04-26",
-        "tags": ["number_theory", "infinite_series", "continued_fractions", "india"],
-        "image": "figs/ramanujan.jpg"
+      "id": 33,
+      "content": "Srinivasa Ramanujan",
+      "start": "1887-12-22",
+      "end": "1920-04-26",
+      "tags": [
+        "number theory",
+        "infinite series",
+        "continued fractions",
+        "india"
+      ],
+      "image": "figs/ramanujan.jpg"
     },
     {
-        "id": 34,
-        "content": "August Ferdinand Möbius",
-        "start": "1790-11-17",
-        "end": "1868-09-26",
-        "tags": ["topology", "geometry", "number_theory", "germany"],
-        "image": "figs/mobius.jpg"
+      "id": 34,
+      "content": "August Ferdinand Möbius",
+      "start": "1790-11-17",
+      "end": "1868-09-26",
+      "tags": [
+        "topology",
+        "geometry",
+        "number theory",
+        "germany"
+      ],
+      "image": "figs/mobius.jpg"
     },
     {
-        "id": 35,
-        "content": "Emmy Noether",
-        "start": "1882-03-23",
-        "end": "1935-04-14",
-        "tags": ["abstract_algebra", "ring_theory", "theoretical_physics", "germany"],
-        "image": "figs/emmy_noether.jpg"
+      "id": 35,
+      "content": "Emmy Noether",
+      "start": "1882-03-23",
+      "end": "1935-04-14",
+      "tags": [
+        "abstract algebra",
+        "ring theory",
+        "theoretical physics",
+        "germany"
+      ],
+      "image": "figs/emmy_noether.jpg"
     },
     {
-        "id": 36,
-        "content": "Max Noether",
-        "start": "1844-09-24",
-        "end": "1921-12-13",
-        "tags": ["algebraic_geometry", "algebraic_functions", "germany"],
-        "image": "figs/max_noether.jpg"
+      "id": 36,
+      "content": "Max Noether",
+      "start": "1844-09-24",
+      "end": "1921-12-13",
+      "tags": [
+        "algebraic geometry",
+        "algebraic functions",
+        "germany"
+      ],
+      "image": "figs/max_noether.jpg"
     },
     {
-        "id": 37,
-        "content": "Max Dehn",
-        "start": "1878-11-13",
-        "end": "1952-06-27",
-        "tags": ["topology", "group_theory", "geometry", "germany"],
-        "image": "figs/dehn.jpg"
+      "id": 37,
+      "content": "Max Dehn",
+      "start": "1878-11-13",
+      "end": "1952-06-27",
+      "tags": [
+        "topology",
+        "group theory",
+        "geometry",
+        "germany"
+      ],
+      "image": "figs/dehn.jpg"
     },
     {
-        "id": 38,
-        "content": "Camille Jordan",
-        "start": "1838-01-05",
-        "end": "1922-01-22",
-        "tags": ["group_theory", "analysis", "topology", "france"],
-        "image": "figs/jordan.jpg"
+      "id": 38,
+      "content": "Camille Jordan",
+      "start": "1838-01-05",
+      "end": "1922-01-22",
+      "tags": [
+        "group theory",
+        "analysis",
+        "topology",
+        "france"
+      ],
+      "image": "figs/jordan.jpg"
     },
     {
-        "id": 39,
-        "content": "Poul Heegaard",
-        "start": "1871-11-02",
-        "end": "1948-02-07",
-        "tags": ["topology", "knot_theory", "denmark"],
-        "image": "figs/heegaard.jpg"
+      "id": 39,
+      "content": "Poul Heegaard",
+      "start": "1871-11-02",
+      "end": "1948-02-07",
+      "tags": [
+        "topology",
+        "knot theory",
+        "denmark"
+      ],
+      "image": "figs/heegaard.jpg"
     },
     {
-        "id": 40,
-        "content": "Tibor Radó",
-        "start": "1895-06-02",
-        "end": "1965-12-29",
-        "tags": ["computability_theory", "turing_machines", "busy_beaver", "hungary", "united_states"],
-        "image": "figs/rado.jpg"
+      "id": 40,
+      "content": "Tibor Radó",
+      "start": "1895-06-02",
+      "end": "1965-12-29",
+      "tags": [
+        "computability theory",
+        "turing machines",
+        "busy beaver",
+        "hungary",
+        "united states"
+      ],
+      "image": "figs/rado.jpg"
+    },
+    {
+      "id": 41,
+      "content": "Augustin-Louis Cauchy",
+      "start": "1789-08-21",
+      "end": "1857-05-23",
+      "tags": [
+        "analysis",
+        "complex analysis",
+        "group theory",
+        "permutations",
+        "france"
+      ],
+      "image": "figs/cauchy.jpg"
+    },
+    {
+      "id": 42,
+      "content": "Évariste Galois",
+      "start": "1811-10-25",
+      "end": "1832-05-31",
+      "tags": [
+        "group theory",
+        "galois theory",
+        "algebra",
+        "france"
+      ],
+      "image": "figs/galois.jpg"
+    },
+    {
+      "id": 43,
+      "content": "Arthur Cayley",
+      "start": "1821-08-16",
+      "end": "1895-01-26",
+      "tags": [
+        "group theory",
+        "algebra",
+        "matrices",
+        "invariant theory",
+        "england"
+      ],
+      "image": "figs/cayley.jpg"
+    },
+    {
+      "id": 44,
+      "content": "Paolo Ruffini",
+      "start": "1765-09-22",
+      "end": "1822-05-10",
+      "tags": [
+        "group theory",
+        "algebra",
+        "quintic",
+        "italy"
+      ],
+      "image": "figs/ruffini.jpg"
+    },
+    {
+      "id": 45,
+      "content": "Niels Henrik Abel",
+      "start": "1802-08-05",
+      "end": "1829-04-06",
+      "tags": [
+        "group theory",
+        "elliptic functions",
+        "analysis",
+        "quintic",
+        "norway"
+      ],
+      "image": "figs/abel.jpg"
+    },
+    {
+      "id": 46,
+      "content": "Joseph Liouville",
+      "start": "1809-03-24",
+      "end": "1882-09-08",
+      "tags": [
+        "group theory",
+        "analysis",
+        "number theory",
+        "differential equations",
+        "france"
+      ],
+      "image": "figs/liouville.jpg"
     }
   ],
   "events": [
     {
-        "id": 101,
-        "content": "Publication of Principia Mathematica",
-        "start": "1687-07-05",
-        "type": "point",
-        "tags": ["calculus", "physics"]
+      "id": 101,
+      "content": "Publication of Principia Mathematica",
+      "start": "1687-07-05",
+      "type": "point",
+      "tags": [
+        "calculus",
+        "physics"
+      ]
+    },
+    {
+      "id": 102,
+      "content": "Lagrange's Réflexions on the algebraic solution of equations",
+      "start": "1770-01-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "algebra",
+        "quintic"
+      ],
+      "description": "In his 'Réflexions sur la résolution algébrique des équations' (1770–1771), Lagrange examined why the known formulas for the cubic and quartic work, showing that the existing solution methods all depend on the behavior of resolvent expressions when the roots of the equation are permuted. His analysis suggested that these methods could not extend to the quintic, and his study of permutations of the roots laid the groundwork for the theory of permutation groups."
+    },
+    {
+      "id": 103,
+      "content": "Ruffini claims a proof that the quintic is unsolvable",
+      "start": "1799-01-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "algebra",
+        "quintic"
+      ],
+      "description": "In his two-volume 'Teoria generale delle equazioni' (1799), Ruffini gave the first claimed proof that the general equation of degree five cannot be solved by radicals. Building on Lagrange's ideas about permutations of the roots, his argument contained important early group-theoretic results, but it had a gap and was largely ignored by his contemporaries (Cauchy was a notable exception)."
+    },
+    {
+      "id": 104,
+      "content": "Abel proves the insolvability of the quintic",
+      "start": "1824-01-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "algebra",
+        "quintic"
+      ],
+      "description": "Abel published, at his own expense, a six-page pamphlet ('Mémoire sur les équations algébriques') containing the first complete proof that the general equation of degree five cannot be solved by radicals — the result now known as the Abel–Ruffini theorem. An expanded version appeared in the first volume of Crelle's Journal in 1826."
+    },
+    {
+      "id": 105,
+      "content": "Galois coins the term 'group'",
+      "start": "1831-01-17",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "galois theory",
+        "algebra",
+        "quintic"
+      ],
+      "description": "In his 'Mémoire sur les conditions de résolubilité des équations par radicaux', submitted to the Paris Academy in January 1831, Galois introduced the term 'group' and studied groups of permutations of the roots of an equation as objects in their own right for the first time. He characterized exactly which equations are solvable by radicals in terms of the structure of the associated group, introducing along the way the ideas of normal subgroups and solvability. The Academy rejected the memoir as insufficiently developed, and it remained unpublished at his death in 1832."
+    },
+    {
+      "id": 106,
+      "content": "Cauchy develops the theory of permutations",
+      "start": "1844-01-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "permutations",
+        "algebra"
+      ],
+      "description": "Beginning with his 1844 'Mémoire sur les arrangements que l'on peut former avec des lettres données', Cauchy published an extensive series of papers developing the fundamentals of permutation theory as a subject of its own: cycle notation and the decomposition of a permutation into cycles, the order of an element, conjugate (similar) permutations, and transpositions. In 1845 he proved that any group of permutations whose order is divisible by a prime p contains an element of order p — Cauchy's theorem."
+    },
+    {
+      "id": 107,
+      "content": "Liouville publishes Galois's work",
+      "start": "1846-10-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "galois theory",
+        "algebra"
+      ],
+      "description": "Fourteen years after Galois's death, Liouville published Galois's principal memoirs in his Journal de mathématiques pures et appliquées (1846), having announced to the Paris Academy that Galois's solvability criterion was correct. This publication finally brought Galois's ideas to the attention of the mathematical community and launched the development of group theory in the following decades."
+    },
+    {
+      "id": 108,
+      "content": "Cayley's papers on abstract group theory",
+      "start": "1849-01-01",
+      "end": "1878-12-31",
+      "type": "range",
+      "tags": [
+        "group theory",
+        "algebra"
+      ],
+      "description": "Between 1849 and 1878 Cayley wrote a series of papers on group theory. In 'On the theory of groups, as depending on the symbolic equation θⁿ = 1' (1854), he was the first to define a group abstractly — as a set with an associative operation satisfying the group axioms, rather than as a set of permutations — and introduced group multiplication tables. Returning to the subject in 1878, he stated the result now called Cayley's theorem: every finite group can be represented as a group of permutations."
+    },
+    {
+      "id": 109,
+      "content": "Klein's Erlangen Program",
+      "start": "1872-10-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "geometry"
+      ],
+      "description": "In his 1872 'Vergleichende Betrachtungen über neuere geometrische Forschungen', published on joining the faculty at Erlangen, Klein proposed classifying geometries by their groups of symmetries: each geometry is the study of the properties left invariant by a given transformation group. The Erlangen Program unified Euclidean, projective, and non-Euclidean geometry under the framework of group theory and made groups central to geometry."
     }
-  ]
+  ],
+  "timelines": []
 }

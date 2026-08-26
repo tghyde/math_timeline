@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-T">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline of Mathematics</title>
 
@@ -20,6 +20,21 @@
             </div>
             <div id="search-results">
                 </div>
+
+            <div id="timelines-section">
+                <h2>Saved Timelines</h2>
+                <div class="save-timeline-row">
+                    <input type="text" id="timeline-name" placeholder="Timeline name">
+                    <button id="save-timeline-btn" title="Save the current selection as a named timeline">Save</button>
+                </div>
+                <div id="saved-timelines-list"></div>
+            </div>
+
+            <div id="data-actions">
+                <button id="add-entry-btn">＋ Add Person / Event</button>
+                <button id="export-btn" title="Download the full dataset (including your additions and saved timelines) to commit to the repo">Download data.json</button>
+                <p class="hint">Additions and saved timelines are stored in this browser. To make them permanent, download data.json and replace the copy in the repo.</p>
+            </div>
         </div>
 
         <div id="main-content">
@@ -30,6 +45,43 @@
             </div>
         </div>
     </div>
+
+    <dialog id="add-dialog">
+        <form id="add-form">
+            <h2>Add a Person or Event</h2>
+
+            <label for="entry-type">Type</label>
+            <select id="entry-type">
+                <option value="person">Person</option>
+                <option value="event">Event</option>
+            </select>
+
+            <label for="entry-name" id="entry-name-label">Name</label>
+            <input type="text" id="entry-name" required placeholder="e.g., Sophus Lie">
+
+            <label for="entry-start" id="entry-start-label">Born</label>
+            <input type="text" id="entry-start" required placeholder="YYYY or YYYY-MM-DD">
+
+            <label for="entry-end" id="entry-end-label">Died</label>
+            <input type="text" id="entry-end" placeholder="YYYY or YYYY-MM-DD">
+
+            <label for="entry-tags">Tags <span class="label-note">(comma-separated)</span></label>
+            <input type="text" id="entry-tags" placeholder="e.g., group theory, norway">
+
+            <label for="entry-image">Image <span class="label-note">(figs/ path or URL, optional)</span></label>
+            <input type="text" id="entry-image" placeholder="figs/lie.jpg">
+
+            <label for="entry-description">Description <span class="label-note">(optional)</span></label>
+            <textarea id="entry-description" rows="4" placeholder="A few sentences shown in the info panel."></textarea>
+
+            <p id="add-form-error" class="form-error" hidden></p>
+
+            <div class="dialog-buttons">
+                <button type="button" id="add-cancel-btn">Cancel</button>
+                <button type="submit" id="add-submit-btn">Add</button>
+            </div>
+        </form>
+    </dialog>
 
     <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
     
