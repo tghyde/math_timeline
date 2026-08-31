@@ -9,12 +9,22 @@
     <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        // Apply the saved theme before first paint to avoid a flash of the wrong colors.
+        document.documentElement.dataset.theme =
+            localStorage.getItem('mathTimeline.theme') ||
+            (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    </script>
 </head>
 <body>
 
     <div id="app-container">
         <div id="controls">
-            <h1>Mathematics Timeline 📐</h1>
+            <div class="controls-header">
+                <h1>Mathematics Timeline 📐</h1>
+                <button id="theme-toggle" title="Switch to day mode" aria-label="Toggle day/night mode">☀️</button>
+            </div>
             <p>Search for mathematicians, events, or tags to add them to the timeline.</p>
             <div class="search-wrapper">
                 <input type="text" id="search-bar" placeholder="e.g., 'Newton', 'calculus', 'germany'">

@@ -31,6 +31,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const LS_CUSTOM_KEY = 'mathTimeline.customItems';
     const LS_TIMELINES_KEY = 'mathTimeline.savedTimelines';
+    const LS_THEME_KEY = 'mathTimeline.theme';
+
+    // --- DAY/NIGHT MODE ---
+    // The initial theme is applied by the inline script in index.html; this
+    // button flips it and remembers the choice for future visits.
+    const themeToggleBtn = document.getElementById('theme-toggle');
+
+    function syncThemeToggle() {
+        const isLight = document.documentElement.dataset.theme === 'light';
+        themeToggleBtn.textContent = isLight ? '🌙' : '☀️';
+        themeToggleBtn.title = isLight ? 'Switch to night mode' : 'Switch to day mode';
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem(LS_THEME_KEY, next);
+        syncThemeToggle();
+    });
+
+    syncThemeToggle();
 
     // --- 3. DATA FETCHING & INITIALIZATION ---
     // Fetch the data from the JSON file and initialize the application
