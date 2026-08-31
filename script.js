@@ -53,6 +53,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     syncThemeToggle();
 
+    // --- FOLDABLE CONTROLS PANEL ---
+    const appContainer = document.getElementById('app-container');
+    const foldBtn = document.getElementById('fold-btn');
+
+    foldBtn.addEventListener('click', () => {
+        const collapsed = appContainer.classList.toggle('controls-collapsed');
+        foldBtn.textContent = collapsed ? '⟩' : '⟨';
+        foldBtn.title = collapsed ? 'Show panel' : 'Hide panel';
+        if (timeline) timeline.redraw();
+    });
+
     // --- 3. DATA FETCHING & INITIALIZATION ---
     // Fetch the data from the JSON file and initialize the application
     fetch('data.json')
@@ -142,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             zoomMin: 1000 * 60 * 60 * 24 * 365, // Min zoom is one year
             zoomMax: 1000 * 60 * 60 * 24 * 365 * 5000, // Max zoom is 5000 years
             minHeight: '200px',
+            maxHeight: '65vh', // Leave room for the info panel below
             margin: {
                 item: { vertical: 4, horizontal: 2 }, // Gap between stacked bars
                 axis: 5

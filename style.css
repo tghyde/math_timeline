@@ -41,8 +41,8 @@ body {
 /* This new div acts as our second column */
 #main-content {
     display: grid;
-    /* Split this column into two rows: the timeline (1fr) and the info panel (auto). */
-    grid-template-rows: 1fr auto;
+    /* The timeline row sizes to its content; the info panel takes all remaining space. */
+    grid-template-rows: auto minmax(250px, 1fr);
     /* Prevents the grid rows from overflowing the container. */
     overflow: hidden;
 }
@@ -67,16 +67,53 @@ body {
 }
 
 #controls h1 {
-    font-size: 1.5rem;
+    /* 1.35rem keeps the title, icon, and fold button on one line at 350px. */
+    font-size: 1.35rem;
     margin-top: 0;
     color: var(--primary-accent);
+}
+
+.title-nowrap {
+    white-space: nowrap;
+}
+
+.title-icon {
+    height: 1.2em;
+    width: 1.2em;
+    vertical-align: -0.22em;
 }
 
 #theme-toggle {
     font-size: 1.1rem;
     line-height: 1;
     padding: 5px 8px;
+    align-self: flex-start;
+    margin-bottom: 12px;
+}
+
+#fold-btn {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 5px 9px;
     flex-shrink: 0;
+}
+
+/* --- Collapsed Controls Panel --- */
+#app-container.controls-collapsed {
+    grid-template-columns: 48px 1fr;
+}
+
+#app-container.controls-collapsed #controls {
+    padding: 12px 6px;
+}
+
+#app-container.controls-collapsed #controls > :not(.controls-header),
+#app-container.controls-collapsed .controls-header h1 {
+    display: none;
+}
+
+#app-container.controls-collapsed .controls-header {
+    justify-content: center;
 }
 
 #controls p {
@@ -293,10 +330,17 @@ button:hover {
     background-color: var(--panel-bg);
     border-top: 1px solid var(--border-color);
     padding: 20px;
-    min-height: 250px;
+    box-sizing: border-box;
+    min-height: 0;
     display: flex;
     gap: 20px;
     align-items: center;
+    overflow: hidden;
+}
+
+#info-panel > div {
+    max-height: 100%;
+    overflow-y: auto;
 }
 
 #info-panel .placeholder {
@@ -307,8 +351,10 @@ button:hover {
 }
 
 .info-image-box {
-    width: 200px;
-    height: 200px;
+    /* Fill the panel's height, staying square; cap the width on short panels. */
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 40%;
     flex-shrink: 0;
     border: 1px solid var(--border-color);
     border-radius: 5px;
