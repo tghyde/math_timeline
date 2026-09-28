@@ -590,6 +590,37 @@
         "france"
       ],
       "image": "figs/liouville.jpg"
+    },
+    {
+      "id": 47,
+      "content": "Richard Dedekind",
+      "start": "1831-10-06",
+      "end": "1916-02-12",
+      "tags": [
+        "number theory",
+        "abstract algebra",
+        "ring theory",
+        "group theory",
+        "group determinant",
+        "characters",
+        "germany"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Richard_Dedekind_1900s.jpg/500px-Richard_Dedekind_1900s.jpg"
+    },
+    {
+      "id": 48,
+      "content": "Ferdinand Georg Frobenius",
+      "start": "1849-10-26",
+      "end": "1917-08-03",
+      "tags": [
+        "group theory",
+        "representation theory",
+        "group determinant",
+        "characters",
+        "matrices",
+        "germany"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/GeorgFrobenius_%28cropped%29.jpg"
     }
   ],
   "events": [
@@ -698,7 +729,103 @@
         "geometry"
       ],
       "description": "In his 1872 'Vergleichende Betrachtungen über neuere geometrische Forschungen', published on joining the faculty at Erlangen, Klein proposed classifying geometries by their groups of symmetries: each geometry is the study of the properties left invariant by a given transformation group. The Erlangen Program unified Euclidean, projective, and non-Euclidean geometry under the framework of group theory and made groups central to geometry."
+    },
+    {
+      "id": 110,
+      "content": "Dedekind factors the group determinant (unpublished work)",
+      "start": "1880-01-01",
+      "end": "1886-12-31",
+      "type": "range",
+      "tags": [
+        "group determinant",
+        "characters",
+        "group theory",
+        "representation theory",
+        "matrices"
+      ],
+      "description": "The group determinant of a finite group G is the determinant of the |G| × |G| matrix whose (g, h) entry is the variable x_{gh⁻¹}. In unpublished notes from 1880, Dedekind showed that when G is abelian this determinant factors into |G| linear forms, one for each character of G. Around 1886 he computed the group determinants of the symmetric group S₃ and the quaternion group and found that they contain irreducible factors of degree two, each occurring squared. Dedekind connected the problem with his 1885 paper on commutative 'hypercomplex' number systems and speculated that enlarging the coefficients to such a system might restore a factorization into linear factors. He put the problem aside, but it is exactly what he handed to Frobenius a decade later."
+    },
+    {
+      "id": 111,
+      "content": "Dedekind writes to Frobenius about the group determinant",
+      "start": "1896-03-19",
+      "type": "point",
+      "tags": [
+        "group determinant",
+        "characters",
+        "group theory",
+        "representation theory"
+      ],
+      "description": "In letters of 19 March and 8 April 1896, Dedekind described his old computations of group determinants to Frobenius, with whom he had been corresponding since 1882. He explained the factorization into linear forms for abelian groups, gave the examples of S₃ and the quaternion group where irreducible factors of higher degree appear, and asked what the general rule might be. Frobenius took up the problem immediately."
+    },
+    {
+      "id": 112,
+      "content": "Frobenius discovers group characters in letters to Dedekind",
+      "start": "1896-04-12",
+      "end": "1896-04-26",
+      "type": "range",
+      "tags": [
+        "group determinant",
+        "characters",
+        "group theory",
+        "representation theory"
+      ],
+      "description": "In a rapid series of letters to Dedekind beginning on 12 April 1896, Frobenius worked out the theory of characters for an arbitrary finite group. He defined them not from representations, which came later, but from the multiplication of conjugacy-class sums in the group algebra, and he found the orthogonality relations they satisfy. By the letter of 26 April he had computed the character tables of A₄, A₅, S₄, S₅, and the simple group of order 168, and had seen that the irreducible factors of the group determinant correspond exactly to the characters."
+    },
+    {
+      "id": 113,
+      "content": "Frobenius, 'Über Gruppencharaktere'",
+      "start": "1896-07-16",
+      "type": "point",
+      "tags": [
+        "characters",
+        "group theory",
+        "representation theory",
+        "group determinant"
+      ],
+      "description": "Presented to the Berlin Academy on 16 July 1896, this paper is the birth of the character theory of nonabelian finite groups. Frobenius defined the characters of a finite group by way of the structure constants of the conjugacy classes, proved that the number of characters equals the number of conjugacy classes, and established the two orthogonality relations. The characters here are still not traces of matrices — that interpretation came the following year — but the numerical theory, including the character tables of several small groups, is already complete."
+    },
+    {
+      "id": 114,
+      "content": "Frobenius, 'Über die Primfactoren der Gruppendeterminante'",
+      "start": "1896-12-03",
+      "type": "point",
+      "tags": [
+        "group determinant",
+        "characters",
+        "group theory",
+        "representation theory",
+        "matrices"
+      ],
+      "description": "Presented to the Berlin Academy in December 1896, this paper solved Dedekind's problem. Frobenius proved that the group determinant of a finite group G factors as a product of distinct irreducible polynomials Φ₁^f₁ · Φ₂^f₂ ⋯ Φₖ^fₖ, where k is the number of conjugacy classes of G, each Φᵢ is homogeneous of degree fᵢ and corresponds to one of the characters of G, and — the remarkable part — each irreducible factor appears with multiplicity equal to its own degree. It follows that the sum of the squares of the degrees of the characters is |G|. Frobenius's later terminology 'Grad' (degree) of a character comes from this theorem."
+    },
+    {
+      "id": 115,
+      "content": "Frobenius defines representations of finite groups by matrices",
+      "start": "1897-01-01",
+      "type": "point",
+      "tags": [
+        "representation theory",
+        "characters",
+        "group theory",
+        "matrices"
+      ],
+      "description": "In 'Über die Darstellung der endlichen Gruppen durch lineare Substitutionen' (Berlin Sitzungsberichte, 1897), Frobenius introduced the concept of a representation (Darstellung) of a finite group: a homomorphism from the group to a group of invertible matrices. He showed that the characters he had defined the year before are exactly the traces of the irreducible representations, that the irreducible representations correspond to the prime factors of the group determinant, and that every representation can be built from irreducible ones — the last point in a form completed by Maschke in 1899. From this paper on, characters and representations are two sides of a single theory."
     }
   ],
-  "timelines": []
+  "timelines": [
+    {
+      "name": "Dedekind, Frobenius, and the group determinant",
+      "ids": [
+        47,
+        48,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ]
+    }
+  ]
 }
