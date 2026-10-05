@@ -621,6 +621,34 @@
         "germany"
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/GeorgFrobenius_%28cropped%29.jpg"
+    },
+    {
+      "id": 49,
+      "content": "Sophus Lie",
+      "start": "1842-12-17",
+      "end": "1899-02-18",
+      "tags": [
+        "group theory",
+        "geometry",
+        "differential equations",
+        "lie groups",
+        "norway"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Portrett_av_Sophus_Lie.jpg/500px-Portrett_av_Sophus_Lie.jpg"
+    },
+    {
+      "id": 50,
+      "content": "Hermann Minkowski",
+      "start": "1864-06-22",
+      "end": "1909-01-12",
+      "tags": [
+        "geometry",
+        "number theory",
+        "relativity",
+        "lorentz group",
+        "germany"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/De_Raum_zeit_Minkowski_Bild_%28cropped%29.jpg/500px-De_Raum_zeit_Minkowski_Bild_%28cropped%29.jpg"
     }
   ],
   "events": [
@@ -811,6 +839,56 @@
         "matrices"
       ],
       "description": "In 'Über die Darstellung der endlichen Gruppen durch lineare Substitutionen' (Berlin Sitzungsberichte, 1897), Frobenius introduced the concept of a representation (Darstellung) of a finite group: a homomorphism from the group to a group of invertible matrices. He showed that the characters he had defined the year before are exactly the traces of the irreducible representations, that the irreducible representations correspond to the prime factors of the group determinant, and that every representation can be built from irreducible ones — the last point in a form completed by Maschke in 1899. From this paper on, characters and representations are two sides of a single theory."
+    },
+    {
+      "id": 116,
+      "content": "Jordan's Traité des substitutions",
+      "start": "1870-01-01",
+      "type": "point",
+      "tags": [
+        "group theory",
+        "galois theory"
+      ],
+      "description": "Jordan's 'Traité des substitutions et des équations algébriques' (Paris, 1870) was the first book devoted to group theory. It systematized Galois's ideas, developed the theory of permutation groups, and introduced linear groups over finite fields together with the notion of a composition series. Klein and Lie read it during their stay in Paris that spring and summer, and it convinced both of them that groups could organize geometry, not just the theory of equations."
+    },
+    {
+      "id": 117,
+      "content": "Lie and Klein together in Paris",
+      "start": "1870-04-01",
+      "end": "1870-07-19",
+      "type": "range",
+      "tags": [
+        "group theory",
+        "geometry",
+        "lie groups"
+      ],
+      "description": "Klein and Lie, who had met in Berlin in the winter of 1869–70, both came to Paris in the spring of 1870 and lived in neighboring rooms in the Latin Quarter. They talked daily, attended Jordan's lectures, studied his newly published Traité, and met Darboux, who taught them the French approach to differential geometry. Lie found his line-to-sphere transformation there and Klein saw the first outlines of what became the Erlangen Program. The Franco-Prussian War broke out on 19 July; Klein, a Prussian, left at once, while Lie set out on foot for Italy and was arrested at Fontainebleau as a spy, his notes mistaken for coded messages, until Darboux secured his release."
+    },
+    {
+      "id": 118,
+      "content": "Minkowski's 'Grundgleichungen' on the Lorentz group",
+      "start": "1907-12-21",
+      "type": "point",
+      "tags": [
+        "relativity",
+        "lorentz group",
+        "geometry",
+        "physics"
+      ],
+      "description": "In 'Die Grundgleichungen für die elektromagnetischen Vorgänge in bewegten Körpern', presented to the Göttingen Academy on 21 December 1907 and preceded by a 5 November lecture to the Göttingen Mathematical Society on 'Das Relativitätsprinzip', Minkowski rewrote Lorentz's and Einstein's relativity as geometry. He introduced the four-dimensional space-time with coordinates x, y, z, it, showed that the Lorentz transformations are exactly the linear maps preserving x² + y² + z² − c²t², and named this group G_c, the Lorentz group. The principle of relativity became the statement that the laws of physics are the invariants of this group, in the spirit of the Erlangen Program."
+    },
+    {
+      "id": 119,
+      "content": "Minkowski's 'Raum und Zeit'",
+      "start": "1908-09-21",
+      "type": "point",
+      "tags": [
+        "relativity",
+        "lorentz group",
+        "geometry",
+        "physics"
+      ],
+      "description": "In his lecture 'Raum und Zeit' at the Assembly of German Natural Scientists and Physicians in Cologne on 21 September 1908, Minkowski presented the geometric view of relativity to a general scientific audience. He contrasted the Galilean group G_∞ of Newtonian mechanics with the Lorentz group G_c, introduced the light cone, world lines, and proper time, and declared that space and time by themselves would fade into shadows, leaving only a union of the two. The lecture, published in 1909 shortly after his death, fixed the picture of special relativity as the geometry of Minkowski space-time under the Lorentz group."
     }
   ],
   "timelines": [
@@ -825,6 +903,20 @@
         113,
         114,
         115
+      ]
+    },
+    {
+      "name": "Erlangen Program",
+      "ids": [
+        10,
+        38,
+        49,
+        50,
+        109,
+        116,
+        117,
+        118,
+        119
       ]
     }
   ]
