@@ -211,7 +211,24 @@ document.addEventListener('DOMContentLoaded', () => {
         details += '</div>';
 
         infoPanel.innerHTML = content + details;
+        renderMath(infoPanel);
         timeline.setSelection([]); // Deselect to allow clicking again
+    }
+
+    /**
+     * Typesets any LaTeX in the element with KaTeX. Descriptions use $...$ for
+     * inline math and $$...$$ for display math. If KaTeX failed to load (e.g.
+     * offline), the raw LaTeX source is left in place so the text is still readable.
+     */
+    function renderMath(element) {
+        if (typeof renderMathInElement !== 'function') return;
+        renderMathInElement(element, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false }
+            ],
+            throwOnError: false
+        });
     }
 
     // --- 4. SEARCH & FILTERING LOGIC ---

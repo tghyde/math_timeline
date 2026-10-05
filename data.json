@@ -721,7 +721,7 @@
         "permutations",
         "algebra"
       ],
-      "description": "Beginning with his 1844 'Mémoire sur les arrangements que l'on peut former avec des lettres données', Cauchy published an extensive series of papers developing the fundamentals of permutation theory as a subject of its own: cycle notation and the decomposition of a permutation into cycles, the order of an element, conjugate (similar) permutations, and transpositions. In 1845 he proved that any group of permutations whose order is divisible by a prime p contains an element of order p — Cauchy's theorem."
+      "description": "Beginning with his 1844 'Mémoire sur les arrangements que l'on peut former avec des lettres données', Cauchy published an extensive series of papers developing the fundamentals of permutation theory as a subject of its own: cycle notation and the decomposition of a permutation into cycles, the order of an element, conjugate (similar) permutations, and transpositions. In 1845 he proved that any group of permutations whose order is divisible by a prime $p$ contains an element of order $p$ — Cauchy's theorem."
     },
     {
       "id": 107,
@@ -745,7 +745,7 @@
         "group theory",
         "algebra"
       ],
-      "description": "Between 1849 and 1878 Cayley wrote a series of papers on group theory. In 'On the theory of groups, as depending on the symbolic equation θⁿ = 1' (1854), he was the first to define a group abstractly — as a set with an associative operation satisfying the group axioms, rather than as a set of permutations — and introduced group multiplication tables. Returning to the subject in 1878, he stated the result now called Cayley's theorem: every finite group can be represented as a group of permutations."
+      "description": "Between 1849 and 1878 Cayley wrote a series of papers on group theory. In 'On the theory of groups, as depending on the symbolic equation $\\theta^n = 1$' (1854), he was the first to define a group abstractly — as a set with an associative operation satisfying the group axioms, rather than as a set of permutations — and introduced group multiplication tables. Returning to the subject in 1878, he stated the result now called Cayley's theorem: every finite group can be represented as a group of permutations."
     },
     {
       "id": 109,
@@ -771,7 +771,7 @@
         "representation theory",
         "matrices"
       ],
-      "description": "The group determinant of a finite group G is the determinant of the |G| × |G| matrix whose (g, h) entry is the variable x_{gh⁻¹}. In unpublished notes from 1880, Dedekind showed that when G is abelian this determinant factors into |G| linear forms, one for each character of G. Around 1886 he computed the group determinants of the symmetric group S₃ and the quaternion group and found that they contain irreducible factors of degree two, each occurring squared. Dedekind connected the problem with his 1885 paper on commutative 'hypercomplex' number systems and speculated that enlarging the coefficients to such a system might restore a factorization into linear factors. He put the problem aside, but it is exactly what he handed to Frobenius a decade later."
+      "description": "The group determinant of a finite group $G$ is the determinant of the $|G| \\times |G|$ matrix whose $(g, h)$ entry is the variable $x_{gh^{-1}}$. In unpublished notes from 1880, Dedekind showed that when $G$ is abelian this determinant factors into $|G|$ linear forms, one for each character of $G$. Around 1886 he computed the group determinants of the symmetric group $S_3$ and the quaternion group and found that they contain irreducible factors of degree two, each occurring squared. Dedekind connected the problem with his 1885 paper on commutative 'hypercomplex' number systems and speculated that enlarging the coefficients to such a system might restore a factorization into linear factors. He put the problem aside, but it is exactly what he handed to Frobenius a decade later."
     },
     {
       "id": 111,
@@ -784,7 +784,7 @@
         "group theory",
         "representation theory"
       ],
-      "description": "In letters of 19 March and 8 April 1896, Dedekind described his old computations of group determinants to Frobenius, with whom he had been corresponding since 1882. He explained the factorization into linear forms for abelian groups, gave the examples of S₃ and the quaternion group where irreducible factors of higher degree appear, and asked what the general rule might be. Frobenius took up the problem immediately."
+      "description": "In letters of 19 March and 8 April 1896, Dedekind described his old computations of group determinants to Frobenius, with whom he had been corresponding since 1882. He explained the factorization into linear forms for abelian groups, gave the examples of $S_3$ and the quaternion group where irreducible factors of higher degree appear, and asked what the general rule might be. Frobenius took up the problem immediately."
     },
     {
       "id": 112,
@@ -798,7 +798,7 @@
         "group theory",
         "representation theory"
       ],
-      "description": "In a rapid series of letters to Dedekind beginning on 12 April 1896, Frobenius worked out the theory of characters for an arbitrary finite group. He defined them not from representations, which came later, but from the multiplication of conjugacy-class sums in the group algebra, and he found the orthogonality relations they satisfy. By the letter of 26 April he had computed the character tables of A₄, A₅, S₄, S₅, and the simple group of order 168, and had seen that the irreducible factors of the group determinant correspond exactly to the characters."
+      "description": "In a rapid series of letters to Dedekind beginning on 12 April 1896, Frobenius worked out the theory of characters for an arbitrary finite group. He defined them not from representations, which came later, but from the multiplication of conjugacy-class sums in the group algebra, and he found the orthogonality relations they satisfy. By the letter of 26 April he had computed the character tables of $A_4$, $A_5$, $S_4$, $S_5$, and the simple group of order 168, and had seen that the irreducible factors of the group determinant correspond exactly to the characters."
     },
     {
       "id": 113,
@@ -825,7 +825,7 @@
         "representation theory",
         "matrices"
       ],
-      "description": "Presented to the Berlin Academy in December 1896, this paper solved Dedekind's problem. Frobenius proved that the group determinant of a finite group G factors as a product of distinct irreducible polynomials Φ₁^f₁ · Φ₂^f₂ ⋯ Φₖ^fₖ, where k is the number of conjugacy classes of G, each Φᵢ is homogeneous of degree fᵢ and corresponds to one of the characters of G, and — the remarkable part — each irreducible factor appears with multiplicity equal to its own degree. It follows that the sum of the squares of the degrees of the characters is |G|. Frobenius's later terminology 'Grad' (degree) of a character comes from this theorem."
+      "description": "Presented to the Berlin Academy in December 1896, this paper solved Dedekind's problem. Frobenius proved that the group determinant of a finite group $G$ factors as a product of distinct irreducible polynomials $\\Phi_1^{f_1} \\Phi_2^{f_2} \\cdots \\Phi_k^{f_k}$, where $k$ is the number of conjugacy classes of $G$, each $\\Phi_i$ is homogeneous of degree $f_i$ and corresponds to one of the characters of $G$, and — the remarkable part — each irreducible factor appears with multiplicity equal to its own degree. It follows that the sum of the squares of the degrees of the characters is $|G|$: $$\\sum_{i=1}^{k} f_i^2 = |G|.$$ Frobenius's later terminology 'Grad' (degree) of a character comes from this theorem."
     },
     {
       "id": 115,
@@ -875,7 +875,7 @@
         "geometry",
         "physics"
       ],
-      "description": "In 'Die Grundgleichungen für die elektromagnetischen Vorgänge in bewegten Körpern', presented to the Göttingen Academy on 21 December 1907 and preceded by a 5 November lecture to the Göttingen Mathematical Society on 'Das Relativitätsprinzip', Minkowski rewrote Lorentz's and Einstein's relativity as geometry. He introduced the four-dimensional space-time with coordinates x, y, z, it, showed that the Lorentz transformations are exactly the linear maps preserving x² + y² + z² − c²t², and named this group G_c, the Lorentz group. The principle of relativity became the statement that the laws of physics are the invariants of this group, in the spirit of the Erlangen Program."
+      "description": "In 'Die Grundgleichungen für die elektromagnetischen Vorgänge in bewegten Körpern', presented to the Göttingen Academy on 21 December 1907 and preceded by a 5 November lecture to the Göttingen Mathematical Society on 'Das Relativitätsprinzip', Minkowski rewrote Lorentz's and Einstein's relativity as geometry. He introduced the four-dimensional space-time with coordinates $x, y, z, it$, showed that the Lorentz transformations are exactly the linear maps preserving $$x^2 + y^2 + z^2 - c^2 t^2,$$ and named this group $G_c$, the Lorentz group. The principle of relativity became the statement that the laws of physics are the invariants of this group, in the spirit of the Erlangen Program."
     },
     {
       "id": 119,
@@ -888,7 +888,7 @@
         "geometry",
         "physics"
       ],
-      "description": "In his lecture 'Raum und Zeit' at the Assembly of German Natural Scientists and Physicians in Cologne on 21 September 1908, Minkowski presented the geometric view of relativity to a general scientific audience. He contrasted the Galilean group G_∞ of Newtonian mechanics with the Lorentz group G_c, introduced the light cone, world lines, and proper time, and declared that space and time by themselves would fade into shadows, leaving only a union of the two. The lecture, published in 1909 shortly after his death, fixed the picture of special relativity as the geometry of Minkowski space-time under the Lorentz group."
+      "description": "In his lecture 'Raum und Zeit' at the Assembly of German Natural Scientists and Physicians in Cologne on 21 September 1908, Minkowski presented the geometric view of relativity to a general scientific audience. He contrasted the Galilean group $G_\\infty$ of Newtonian mechanics with the Lorentz group $G_c$, introduced the light cone, world lines, and proper time, and declared that space and time by themselves would fade into shadows, leaving only a union of the two. The lecture, published in 1909 shortly after his death, fixed the picture of special relativity as the geometry of Minkowski space-time under the Lorentz group."
     }
   ],
   "timelines": [
