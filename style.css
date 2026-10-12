@@ -7,6 +7,8 @@
     --border-color: #444444;
     --muted-color: #888888;
     --shadow: 0 2px 8px rgba(0,0,0,0.2);
+    --context-accent: #f5a623;
+    --context-fill: rgba(245, 166, 35, 0.2);
 }
 
 /* Day mode palette; toggled via the ☀️/🌙 button and saved in localStorage. */
@@ -18,6 +20,8 @@
     --border-color: #cccccc;
     --muted-color: #777777;
     --shadow: 0 2px 8px rgba(0,0,0,0.1);
+    --context-accent: #d4800f;
+    --context-fill: rgba(212, 128, 15, 0.18);
 }
 
 body {
@@ -394,6 +398,17 @@ button:hover {
 
 .vis-item.vis-point {
     color: var(--text-color);
+}
+
+/* Non-mathematical context events (className "context" in data.json) get a
+   second accent color so they stand apart from the mathematical items. */
+.vis-item.context {
+    border-color: var(--context-accent);
+    background-color: var(--context-fill);
+}
+
+.vis-item.vis-dot.context {
+    border-color: var(--context-accent);
 }
 
 /* Make the vis.js axis and gridlines follow the active theme. */

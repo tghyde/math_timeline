@@ -889,6 +889,62 @@
         "physics"
       ],
       "description": "In his lecture 'Raum und Zeit' at the Assembly of German Natural Scientists and Physicians in Cologne on 21 September 1908, Minkowski presented the geometric view of relativity to a general scientific audience. He contrasted the Galilean group $G_\\infty$ of Newtonian mechanics with the Lorentz group $G_c$, introduced the light cone, world lines, and proper time, and declared that space and time by themselves would fade into shadows, leaving only a union of the two. The lecture, published in 1909 shortly after his death, fixed the picture of special relativity as the geometry of Minkowski space-time under the Lorentz group."
+    },
+    {
+      "id": 120,
+      "content": "Lumière brothers hold the first public film screening",
+      "start": "1895-12-28",
+      "type": "point",
+      "className": "context",
+      "tags": [
+        "context",
+        "history",
+        "film",
+        "france"
+      ],
+      "description": "On 28 December 1895, Auguste and Louis Lumière projected ten short films to a paying audience in the Salon Indien of the Grand Café in Paris, using their Cinématographe. It is generally taken as the birth of cinema as a public medium. Three months later Dedekind wrote to Frobenius about the group determinant."
+    },
+    {
+      "id": 121,
+      "content": "Becquerel discovers radioactivity",
+      "start": "1896-03-01",
+      "type": "point",
+      "className": "context",
+      "tags": [
+        "context",
+        "history",
+        "physics",
+        "france"
+      ],
+      "description": "Following up on Röntgen's X-rays, announced the previous December, Henri Becquerel found that uranium salts darken a photographic plate even when kept in the dark, with no external source of energy. He reported the result to the Académie des Sciences on 2 March 1896, within three weeks of Dedekind's first letter to Frobenius. Marie and Pierre Curie took up the phenomenon in 1898 and named it radioactivity."
+    },
+    {
+      "id": 122,
+      "content": "First modern Olympic Games, Athens",
+      "start": "1896-04-06",
+      "end": "1896-04-15",
+      "type": "range",
+      "className": "context",
+      "tags": [
+        "context",
+        "history",
+        "sport",
+        "greece"
+      ],
+      "description": "The first Olympic Games of the modern era, organized by Pierre de Coubertin's International Olympic Committee, were held in Athens from 6 to 15 April 1896, with about 240 athletes from 14 nations. The Games coincided almost exactly with the burst of letters from Frobenius to Dedekind in which the theory of group characters took shape."
+    },
+    {
+      "id": 123,
+      "content": "Death of Alfred Nobel",
+      "start": "1896-12-10",
+      "type": "point",
+      "className": "context",
+      "tags": [
+        "context",
+        "history",
+        "sweden"
+      ],
+      "description": "Alfred Nobel, the inventor of dynamite, died at Sanremo on 10 December 1896. His will, opened the following month, left most of his fortune to establish the prizes in physics, chemistry, medicine, literature, and peace that bear his name; the first were awarded in 1901. Frobenius's paper on the prime factors of the group determinant had been presented to the Berlin Academy a week earlier."
     }
   ],
   "timelines": [
@@ -902,7 +958,11 @@
         112,
         113,
         114,
-        115
+        115,
+        120,
+        121,
+        122,
+        123
       ]
     },
     {
